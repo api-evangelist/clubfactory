@@ -1,7 +1,27 @@
 aid: clubfactory
-name: clubfactory
-description: clubfactory is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clubfactory.png
+name: Club Factory
+description: Club Factory was a Chinese-owned cross-border e-commerce marketplace app
+  that grew to roughly 70 million users globally, with India its largest market at
+  around 40 million users. In June 2020 the Government of India banned Club Factory
+  alongside 58 other Chinese apps citing data and privacy concerns, and the company
+  withdrew from the Indian market shortly after. It was originally added to the API
+  Evangelist network as a stub lead surfaced from Qiming's portfolio. Enrichment finds
+  the company effectively defunct - clubfactory.com no longer serves a company site
+  (it is parked for sale via Afternic nameservers and redirects to a /lander page),
+  there is no live developer or API surface, no published SDKs, and no discoverable
+  /.well-known documents.
 url: https://raw.githubusercontent.com/api-evangelist/clubfactory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,21 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Banned in India June 2020; company withdrew from its largest market.
+  Domain clubfactory.com is parked for sale (Afternic nameservers, redirects to /lander).
+  No live API or developer surface found during enrichment on 2026-07-18.
+x-domain-status: parked-for-sale
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- E-Commerce
+- Marketplace
+- Retail
+- Cross-Border Commerce
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,8 @@ maintainers:
 common:
 - type: Website
   url: https://clubfactory.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
