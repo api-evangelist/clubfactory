@@ -34,7 +34,7 @@ x-status-detail: Banned in India June 2020; company withdrew from its largest ma
   Domain clubfactory.com is parked for sale (Afternic nameservers, redirects to /lander).
   No live API or developer surface found during enrichment on 2026-07-18.
 x-domain-status: parked-for-sale
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
